@@ -26,6 +26,7 @@ class HashTable:
                 return i
         else:
             print(val," is not in Hash Table")
+	    return -1
 
 
     def delitem(self,val):
